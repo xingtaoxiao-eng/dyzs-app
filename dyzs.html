@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钓鱼指数 - 技术支持</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            max-width: 600px;
+            width: 100%;
+            padding: 40px 32px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .section {
+            margin-bottom: 28px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        .contact {
+            background: #f5f5f7;
+            border-radius: 16px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+            .contact-item:last-child {
+                margin-bottom: 0;
+            }
+
+        .contact-icon {
+            font-size: 22px;
+        }
+
+        .contact-text {
+            font-size: 16px;
+            color: #333;
+        }
+
+            .contact-text a {
+                color: #0066cc;
+                text-decoration: none;
+            }
+
+                .contact-text a:hover {
+                    text-decoration: underline;
+                }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+            .feature-list li {
+                padding: 8px 0;
+                color: #555;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+                .feature-list li:before {
+                    content: "✓";
+                    color: #28a745;
+                    font-weight: bold;
+                }
+
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 12px;
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #007aff;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">🎣</div>
+        <h1>钓鱼指数</h1>
+        <div class="subtitle">钓鱼人专属的天气助手</div>
+
+        <div class="section">
+            <div class="section-title">📱 App 简介</div>
+            <p style="color: #555; line-height: 1.6;">
+                钓鱼指数是一款基于实时气象数据的钓鱼辅助工具。综合气温、水温、气压、湿度、风力等多维数据，实时分析鱼情，帮你做出最佳出钓决策。
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">✨ 核心功能</div>
+            <ul class="feature-list">
+                <li>实时钓鱼指数（爆护/有口/一般/停口）</li>
+                <li>多维度数据监测（气温、水温、气压、湿度、溶氧）</li>
+                <li>未来7天逐小时预报</li>
+                <li>常去坐标管理，一键切换钓点</li>
+                <li>月相分析 + 夜钓灯光建议</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <div class="section-title" style="margin-bottom: 16px;">📧 联系我们</div>
+            <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span class="contact-text">
+                    技术支持邮箱：<a href="mailto:460442506@qq.com">460442506@qq.com</a>
+                </span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">⏰</span>
+                <span class="contact-text">回复时间：24小时内</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📖 常见问题</div>
+            <p style="color: #555; line-height: 1.6; margin-bottom: 12px;">
+                <strong>Q：为什么我的广告看不了？</strong><br>
+                A：请确保网络通畅，并尝试重启 App。如问题持续，请联系我们。
+            </p>
+            <p style="color: #555; line-height: 1.6;">
+                <strong>Q：为什么气压数据不准？</strong><br>
+                A：气压数据来自气象 API，如发现异常建议刷新或检查网络。
+            </p>
+        </div>
+
+        <div class="footer">
+            © 2026 钓鱼指数 · 让每一次出钓都更有把握
+        </div>
+    </div>
+</body>
+</html>
